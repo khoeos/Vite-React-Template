@@ -1008,6 +1008,18 @@
     "semver" "^6.3.0"
     "string.prototype.matchall" "^4.0.6"
 
+"eslint-plugin-unused-imports@^2.0.0":
+  "integrity" "sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-unused-imports/-/eslint-plugin-unused-imports-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "eslint-rule-composer" "^0.3.0"
+
+"eslint-rule-composer@^0.3.0":
+  "integrity" "sha512-bt+Sh8CtDmn2OajxvNO+BX7Wn4CIWMpTRm3MaiKPCQcnnlm0CS2mhui6QaoeQugs+3Kj2ESKEEGJUdVafwhiCg=="
+  "resolved" "https://registry.npmjs.org/eslint-rule-composer/-/eslint-rule-composer-0.3.0.tgz"
+  "version" "0.3.0"
+
 "eslint-scope@^7.1.1":
   "integrity" "sha512-QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw=="
   "resolved" "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.1.1.tgz"
@@ -1033,7 +1045,7 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz"
   "version" "3.3.0"
 
-"eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^7.32.0 || ^8.2.0", "eslint@^8.11.0", "eslint@>=5", "eslint@>=7.0.0", "eslint@>=7.28.0":
+"eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8", "eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0", "eslint@^7.32.0 || ^8.2.0", "eslint@^8.0.0", "eslint@^8.11.0", "eslint@>=5", "eslint@>=7.0.0", "eslint@>=7.28.0":
   "integrity" "sha512-/KRpd9mIRg2raGxHRGwW9ZywYNAClZrHjdueHcrVDuO3a6bj83eoTirCCk0M0yPwOjWYKHwRVRid+xK4F/GHgA=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.11.0.tgz"
   "version" "8.11.0"
@@ -1886,7 +1898,12 @@
   dependencies:
     "fast-diff" "^1.1.2"
 
-"prettier@^2.6.0", "prettier@>=2.0.0":
+"prettier-plugin-tailwindcss@^0.1.8":
+  "integrity" "sha512-hwarSBCswAXa+kqYtaAkFr3Vop9o04WOyZs0qo3NyvW8L7f1rif61wRyq0+ArmVThOuRBcJF5hjGXYk86cwemg=="
+  "resolved" "https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.1.8.tgz"
+  "version" "0.1.8"
+
+"prettier@^2.6.0", "prettier@>=2.0.0", "prettier@>=2.2.0":
   "integrity" "sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A=="
   "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.6.0.tgz"
   "version" "2.6.0"

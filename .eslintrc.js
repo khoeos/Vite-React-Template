@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
@@ -11,7 +12,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'import', 'unused-imports'],
   rules: {
     'prettier/prettier': 'error',
     'no-console': 'off',
@@ -22,14 +23,12 @@ module.exports = {
     'linebreak-style': 'off',
     'max-len': ['warn', { code: 120 }],
     'global-require': 'warn',
+    'no-alert': 'off',
     'no-unused-vars': 'warn',
-    'comma-dangle': 'never',
     'prefer-default-export': 'off',
-    'space-in-parens': [
-      'warn',
-      'always',
-      { exceptions: ['{}', '[]', '()', 'empty'] },
-    ],
+    'react/button-has-type': 'off',
+    'react/prop-types': 'off',
+    'import/prefer-default-export': 'off',
     'no-trailing-spaces': [
       'error',
       { skipBlankLines: true, ignoreComments: true },

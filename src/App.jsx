@@ -1,9 +1,18 @@
-const App = () => {
-  return (
-    <div className="font-bold text-4xl m-[2em] text-red-600 underline">
-      Hello World
-    </div>
-  );
-};
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Index from './Pages/index'
 
-export default App;
+function App() {
+  return (
+    <Router>
+      <header className="flex gap-2">
+        <Link to="/">Home</Link>
+      </header>
+      <Routes>
+        <Route path="/" element={<Index />} />
+      </Routes>
+    </Router>
+  )
+}
+
+export default App

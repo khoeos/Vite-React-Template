@@ -1,47 +1,43 @@
-# Vite + ReactJs + TailwindCss in JIT Template
+# Vite Template React
 
-**Update: TailwindCSS v3 came out, and it uses JIT compiler by default. The config file and the package.json has been updated accordingly.**
+A [Vite](https://vitejs.dev) + [React](https://reactjs.org) starter template.
 
-Just clone this repository or click the `Use This Template` button or use degit (`npx degit KrishGarg/vite-react-tailwind-jit-template#main`) to get a copy of this. Then just run `yarn` or `npm i` in the root of the folder to install all the dependencies. Then you can go ahead and start editing the src/App.jsx file and you can use tailwind throughout the entire app as the src/index.css file has registered tailwind and it is imported in the main.jsx file.
+## Features
 
----
+- [Vite](https://vitejs.dev), [React](https://reactjs.org)
+- [TailwindCSS](https://tailwindcss.com/), [Heroicon](https://heroicons.com/) and [HeadlessUI](https://headlessui.dev/) for [TailwindUi](https://tailwindui.com/)
+- [React Router](https://reactrouter.com/) for routing and SPA
+- [Redux](hhttps://redux.js.org/) with [Redux Toolkit](https://redux-toolkit.js.org/) for state management
+- [Axios](https://github.com/axios/axios) for request
+- Aliases management
 
-## Quick Clone:
+## Folder Structure
 
-```shell
-npx degit KrishGarg/vite-react-tailwind-jit-template#main
+- No configuration or complicated folder structures, just the files you need to build your app:
+- Basic examples for Router, queries and aliases
+
+## Development
+
+Install dependencies:
+
+```
+npm i
 ```
 
-## Demo Site: https://vite-react-tailwind.surge.sh
+Now, you can start a local web server by running:
 
----
-
-## Commands:
-
-To start the dev server on your machine:
-
-```shell
-yarn dev
+```
+npm start
 ```
 
-To start the dev server on your network:
+And then open http://localhost:3000 to view it in the browser.
 
-```shell
-yarn dev --host
-```
+#### Available Scripts
 
-To make the production build:
+In this project, you can run the following scripts:
 
-```shell
-yarn build
-```
-
-To preview the production build locally:
-
-```shell
-yarn serve
-```
-
----
-
-### To deploy the site, refer to the [official docs](https://vitejs.dev/guide/static-deploy.html) as it is explained in detail there and for many providers.
+| Script        | Description                                         |
+| ------------- | --------------------------------------------------- |
+| npm run dev   | Runs the app in the development mode.               |
+| npm run build | Builds the app for production to the `dist` folder. |
+| npm run serve | Serves the production build from the `dist` folder. |
